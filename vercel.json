@@ -1,9 +1,3 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "api/convert-times.js", "use": "@vercel/node" }
-  ],
-  "routes": [
-    { "src": "/api/convert-times", "dest": "/api/convert-times.js" }
-  ]
+  "version": 2
 }
